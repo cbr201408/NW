@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualizations lat & speed</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style-plot.css">
+</head>
+
+
+<body>
+
+                <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                         <ul class="nav navbar-nav">
+                                                               <li><a href="#"></a></li>
+                                                               <li><a href="#"></a></li>
+                                                               <li><a href="#"></a></li>
+                                                        </ul>       
+                                                        <div class="navbar-header">
+                                                        <a class="navbar-brand" href="index.html" style="background-color: #139992"> <font color="white">Main Page</font></a>
+                                                        </div>
+                                                                                          
+                                                        <ul class="nav navbar-nav pull-right">
+                                                         <li class="dropdown">
+                                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                                                          <span class="caret"></span></a>
+                                                           <ul class="dropdown-menu">
+                                                          
+                                                                 <li><a href="visual-lat-temp.html">Latitude Vs. Temperature</a></li>
+                                                                 <li><a href="visual-lat-hum.html">Latitude Vs. Humidity</a></li>
+                                                                  <li><a href="visual-lat-speed.html">Latitude Vs. Wind Speed</a></li>
+                                                                   <li><a href="visual-lat-cloud.html">Latitude Vs. Cloudiness</a></li>
+                                                                  </ul>
+                                                                   </li>
+                                                                   <li><a href="comparison.html">Comparison</a></li>
+                                                                    <li><a href="data.html">Data</a></li>
+                                                                     </ul>
+                                                                      </div>
+                                                                       </nav>
+              
+ <main class="container">
+        <span class = "b">
+        
+        
+       <section id="main-section">
+                <section id = "title">
+                    <h2 class="title-name">Wind Speed</h2>
+                        </section>
+                <hr class = "hr1">  
+                    
+               <img id="main-image" src="lat_speed.png" alt="Latitude vs Temperature">
+                    
+        <p>
+                Wind speed doesnt correlated too much with latitude. However, it does appear to be higher wind speed within higher latitude locations.
+        </p>
+ </section>
+ </span>
+ <span class = "b">
+                <aside id="visualziation">
+                       <h2 >Visualizations</h2>
+                       
+                       <hr class = "hr2">
+                       <br>
+                       
+                       <a href="visual-lat-temp.html">
+                       <img id="sub-image" src="lat_temp.png" alt="lat_temp"> 
+                       </a>
+                       <a href="visual-lat-speed.html">
+                               <img id="sub-image" src="lat_speed.png" alt="lat_speed">
+                       </a>
+                       <a href="visual-lat-cloud.html">
+                               <img id="sub-image" src="lat_cloud.png" alt="lat_cloud">
+                       </a>
+                       <a href="visual-lat-hum.html">
+                               <img id="sub-image" src="lat_hum.png" alt="lat_hum">
+                       </a>
+                       <br>
+                       <br>
+</aside>
+</span>  
+               
+</main>
+<footer>Copyright 2018: Mike Wu</footer>
+              
+</body>
+
+</html>

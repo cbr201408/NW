@@ -1,0 +1,154 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+    padding: 0px;;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: 0spx;
+    margin-left: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 17px;
+    line-height: 200%;
+    color: #333;
+    background: #DCDCDC;
+  }
+  
+  header {
+    background: #66CDAA;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+  padding-left:120px;
+  margin-left: -10px;
+  
+    
+  }
+  
+  
+  
+  h2 {
+    font-size: 24px;
+    right: 5px;
+    margin-left: 30px;
+    
+  }
+  
+  
+  
+  /* Selecting elements by class */
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+    top: 30px;
+  }
+  
+  /* Selecting elements by ID */
+  
+  
+  h2{
+    
+    color: #66CDAA;
+    font-size: 30px;
+    
+  }
+  
+  #title-name {
+    position: relative;
+    top: 150px;
+    left: 30px;
+  }
+  
+  
+  #main-section {
+    
+    background-color: white;
+    float: left;
+    left: 100px;
+    margin-top: 35px;
+    margin-bottom: 100pxpx;
+    margin-right: 0spx;
+    margin-left: -50px;
+    width: 700px;
+    height: 70%;
+  }
+  
+  aside{
+    background-color: white;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 100px;
+    margin-right: -70px;
+    margin-left: 110px;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #main-image {
+    width: 420px;
+    height: 400px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    margin-right: -70spx;
+    margin-left: 110px;
+  
+  }
+  
+  p{
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+  
+  #visualziation{
+  
+    width: 300px;
+   
+    
+  
+  }
+  #sub-image {
+    
+    width: 150px;
+    height: 150px;
+    margin-right: -5px;
+    position: relative;
+    
+  }
+  
+  .hr1{
+    
+    width: 90%;
+    opacity: 0.4;
+    
+    
+  }
+  
+  .hr2{
+    width: 250px;
+    opacity: 0.4;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4C4E4C;
+    color: white;
+    text-align: center;
+ }
+ 
+ 
+  
+  
+  
+  
